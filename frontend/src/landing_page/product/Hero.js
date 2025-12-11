@@ -6,7 +6,7 @@ function Hero() {
       <div className='row text-center p-5'>
         <h3>Zerodha Products</h3>
         <p style={{fontSize:"1.2rem"}}>Sleek, modern, and intuitive trading platforms</p>
-        <p>Check out our <a role='button' style={{textDecoration:"none", cursor:'pointer'}}>investment offerings →</a></p>
+        <p>Check out our <button style={{textDecoration:"none", cursor:'pointer', background:'none', border:'none', padding:0, color:'inherit'}}>investment offerings →</button></p>
         </div>
       </div>
   )

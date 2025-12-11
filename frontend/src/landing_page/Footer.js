@@ -12,10 +12,10 @@ function Footer() {
             <span>All rights reserved.</span>
           </p>
           <div className="social-media-icons mb-4">
-            <a role="button" style={{cursor:'pointer'}}><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-            <a role="button" style={{cursor:'pointer'}}><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-            <a role="button" style={{cursor:'pointer'}}><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a role="button" style={{cursor:'pointer'}}><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <button style={{cursor:'pointer', background:'none', border:'none'}}><i class="fa fa-twitter-square" aria-hidden="true"></i></button>
+            <button style={{cursor:'pointer', background:'none', border:'none'}}><i class="fa fa-facebook-official" aria-hidden="true"></i></button>
+            <button style={{cursor:'pointer', background:'none', border:'none'}}><i class="fa fa-instagram" aria-hidden="true"></i></button>
+            <button style={{cursor:'pointer', background:'none', border:'none'}}><i class="fa fa-linkedin-square" aria-hidden="true"></i></button>
           </div>
           <div className="social-media-icons-bottom mb-4">
             <a href="javascript:void(0);"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>

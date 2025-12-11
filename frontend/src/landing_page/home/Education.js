@@ -14,11 +14,11 @@ function Education() {
          <h4 className='mb-4'>Free and open market education</h4>
          <div className='mb-5'>
            <p>Varsity, the largest online stock market education book in the world covering everything from the basics to advanced trading.</p>
-           <a role='button' style={{textDecoration:"none", cursor:'pointer'}}>Varsity <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+           <button style={{textDecoration:"none", cursor:'pointer', background:'none', border:'none', padding:0}}>Varsity <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
          </div>
          <div className='mb-5'>
           <p>TradingQ&A, the most active trading and investment community in India for all your market related queries.</p>
-          <a role='button' style={{textDecoration:"none", cursor:'pointer'}} >TradingQ&A <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+          <button style={{textDecoration:"none", cursor:'pointer', background:'none', border:'none', padding:0}} >TradingQ&A <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
          </div>
       </div>
       </div>

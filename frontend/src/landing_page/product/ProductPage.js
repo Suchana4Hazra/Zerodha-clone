@@ -20,7 +20,7 @@ function ProductPage() {
       <LeftSection imageUrl="media/images/varsity.png" productName="Varsity mobile" productDescription="An easy to grasp, collection of stock market lessons with in-depth coverage and illustrations. Content is broken down into bite-size cards to help you learn on the go." tryDemo="" learnMore="" googlePlay="" appStore="" />
 
       <div className='fs-5 text-center' style={{marginTop:"5%"}}>
-      <p className='mx-5'>Want to know more about our technology stack? Check out the <a role='button' style={{cursor:'pointer'}}>Zerodha.tech</a> blog.</p>
+      <p className='mx-5'>Want to know more about our technology stack? Check out the <button style={{cursor:'pointer', background:'none', border:'none', padding:0, color:'inherit', textDecoration:'underline'}}>Zerodha.tech</button> blog.</p>
       </div>
       <Universe />
       <CustomButton />
