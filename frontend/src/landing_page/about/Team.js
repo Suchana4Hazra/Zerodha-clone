@@ -17,9 +17,9 @@ function Team() {
             <p>Nithin bootstrapped and founded Zerodha in 2010 to overcome the hurdles he faced during his decade long stint as a trader. Today, Zerodha has changed the landscape of the Indian broking industry.</p>
             <p>He is a member of the SEBI Secondary Market Advisory Committee (SMAC) and the Market Data Advisory Committee (MDAC).</p>
             <p>Playing basketball is his zen.</p>
-            <p>Connect on <a role='button' style={{cursor:'pointer'}}>HomePage</a> / 
-             <a role='button' style={{cursor:'pointer'}}> TradingQnA</a> / 
-             <a role='button' style={{cursor:'pointer'}}> Twitter</a></p>
+            <p>Connect on <button style={{background:'none', border:'none', padding:0, cursor:'pointer', color:'inherit'}}>HomePage</button> / 
+             <button style={{background:'none', border:'none', padding:0, cursor:'pointer', color:'inherit'}}> TradingQnA</button> / 
+             <button style={{background:'none', border:'none', padding:0, cursor:'pointer', color:'inherit'}}> Twitter</button></p>
           </div>
         </div>
       </div>

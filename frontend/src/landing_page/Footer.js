@@ -5,7 +5,7 @@ function Footer() {
     <div className="container footer footer--top-border">
       <div className="row mt-5" style={{ lineHeight: "200%" }}>
         <div className="col-lg-3 col-sm-12 fs-5">
-          <img src="media/images/logo.svg" style={{ width: "25%" }} />
+          <img src="media/images/logo.svg" alt="Zerodha logo" style={{ width: "25%" }} />
           <p className="text-muted para1">
             <span>© 2010 - 2025, Zerodha</span>
             <span>Broking Ltd.</span>
