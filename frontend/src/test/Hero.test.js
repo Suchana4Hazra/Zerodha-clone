@@ -19,7 +19,7 @@ describe('Hero Component', () => {
     });
 
     //test: 2
-    test('renders signup page', () => {
+    test('render signup page', () => {
         render(<Hero />);
         const signupButton = screen.getByRole("button", {name: "Sign up for free"})
         expect(signupButton).toBeInTheDocument();
