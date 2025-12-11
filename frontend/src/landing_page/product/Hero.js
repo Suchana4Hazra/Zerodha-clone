@@ -6,7 +6,7 @@ function Hero() {
       <div className='row text-center p-5'>
         <h3>Zerodha Products</h3>
         <p style={{fontSize:"1.2rem"}}>Sleek, modern, and intuitive trading platforms</p>
-        <p>Check out our <a href='#' style={{textDecoration:"none"}}>investment offerings →</a></p>
+        <p>Check out our <a href='javascript:void(0);' style={{textDecoration:"none"}}>investment offerings →</a></p>
         </div>
       </div>
   )
