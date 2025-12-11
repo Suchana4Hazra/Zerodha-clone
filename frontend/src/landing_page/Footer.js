@@ -18,81 +18,81 @@ function Footer() {
             <button style={{cursor:'pointer', background:'none', border:'none'}}><i class="fa fa-linkedin-square" aria-hidden="true"></i></button>
           </div>
           <div className="social-media-icons-bottom mb-4">
-            <a href="javascript:void(0);"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-            <a href="javascript:void(0);"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-            <a href="javascript:void(0);"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+            <button style={{cursor:'pointer', background:'none', border:'none'}}><i class="fa fa-youtube-play" aria-hidden="true"></i></button>
+            <button style={{cursor:'pointer', background:'none', border:'none'}}><i class="fa fa-whatsapp" aria-hidden="true"></i></button>
+            <button style={{cursor:'pointer', background:'none', border:'none'}}><i class="fa fa-telegram" aria-hidden="true"></i></button>
           </div>
         </div>
         <div className="col-lg-2 col-sm-12 footer_link mb-5">
           <h5>Account</h5>
-          <a href="javascript:void(0);">Open demat account</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Open demat account</button>
           <br />
-          <a href="javascript:void(0);">Minor demat account</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Minor demat account</button>
           <br />
-          <a href="javascript:void(0);">NRI demat account</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>NRI demat account</button>
           <br />
-          <a href="javascript:void(0);">Commodity</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Commodity</button>
           <br />
-          <a href="javascript:void(0);">Dematerialisation</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Dematerialisation</button>
           <br />
-          <a href="javascript:void(0);">Fund transfer</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Fund transfer</button>
           <br />
-          <a href="javascript:void(0);">MTF</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>MTF</button>
           <br />
-          <a href="javascript:void(0);">Referral program</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Referral program</button>
           <br />
         </div>
         <div className="col-lg-2 col-sm-12 footer_link mb-5">
           <h5>Support</h5>
-          <a href="javascript:void(0);">Contact us</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Contact us</button>
           <br />
-          <a href="javascript:void(0);">Support portal</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Support portal</button>
           <br />
-          <a href="javascript:void(0);">How to file a complaint?</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>How to file a complaint?</button>
           <br />
-          <a href="javascript:void(0);">Status of your complaints</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Status of your complaints</button>
           <br />
-          <a href="javascript:void(0);">Bulletin</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Bulletin</button>
           <br />
-          <a href="javascript:void(0);">Circular</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Circular</button>
           <br />
-          <a href="javascript:void(0);">Z-Connect blog</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Z-Connect blog</button>
           <br />
-          <a href="javascript:void(0);">Downloads</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Downloads</button>
           <br />
         </div>
         <div className="footer_link col-lg-2 col-sm-12 mb-5">
           <h5>Company</h5>
-          <a href="javascript:void(0);">About</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>About</button>
           <br />
-          <a href="javascript:void(0);">Philosophy</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Philosophy</button>
           <br />
-          <a href="javascript:void(0);">Press & media</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Press & media</button>
           <br />
-          <a href="javascript:void(0);">Careers</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Careers</button>
           <br />
-          <a href="javascript:void(0);">Zerodha Cares (CSR)</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Zerodha Cares (CSR)</button>
           <br />
-          <a href="javascript:void(0);">Zerodha.tech</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Zerodha.tech</button>
           <br />
-          <a href="javascript:void(0);">Open source</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Open source</button>
           <br />
         </div>
         <div className="col-lg-3 col-sm-12 footer_link mb-5">
           <h5>Quick links</h5>
-          <a href="javascript:void(0);">Upcoming IPOs</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Upcoming IPOs</button>
           <br />
-          <a href="javascript:void(0);">Brokerage charges</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Brokerage charges</button>
           <br />
-          <a href="javascript:void(0);">Market holidays</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Market holidays</button>
           <br />
-          <a href="javascript:void(0);">Economic calendar</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Economic calendar</button>
           <br />
-          <a href="javascript:void(0);">Calculators</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Calculators</button>
           <br />
-          <a href="javascript:void(0);">Markets</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Markets</button>
           <br />
-          <a href="javascript:void(0);">Sectors</a>
+          <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit', textAlign:'left'}}>Sectors</button>
           <br />
         </div>
       </div>
@@ -105,17 +105,17 @@ function Footer() {
         Cross, Dollars Colony, Opp. Clarence Public School, J.P Nagar 4th Phase,
         Bengaluru - 560078, Karnataka, India. For any complaints pertaining to
         securities broking please write to{" "}
-        <a href="javascript:void(0);">complaints@zerodha.com</a>, for DP related to{" "}
-        <a href="javascript:void(0);">dp@zerodha.com</a>. Please ensure you carefully read the
+        <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit'}}>complaints@zerodha.com</button>, for DP related to{" "}
+        <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit'}}>dp@zerodha.com</button>. Please ensure you carefully read the
         Risk Disclosure Document as prescribed by SEBI | ICF <br />
         <br />
-        Procedure to file a complaint on <a href="javascript:void(0);">SEBI SCORES</a>: Register
+        Procedure to file a complaint on <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit'}}>SEBI SCORES</button>: Register
         on SCORES portal. Mandatory details for filing complaints on SCORES:
         Name, PAN, Address, Mobile Number, E-mail ID. Benefits: Effective
         Communication, Speedy redressal of the grievances <br />
         <br />
-        <a href="javascript:void(0);">Smart Online Dispute Resolution</a> |{" "}
-        <a href="javascript:void(0);">Grievances Redressal Mechanism </a>
+        <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit'}}>Smart Online Dispute Resolution</button> |{" "}
+        <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit'}}>Grievances Redressal Mechanism </button>
         <br />
         <br />
         Investments in securities market are subject to market risks; read all
@@ -130,7 +130,7 @@ function Footer() {
         issued by NSDL/CDSL every month. <br />
         <br />
         India's largest broker based on networth as per NSE.{" "}
-        <a href="javascript:void(0);">NSE broker factsheet</a>
+        <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit'}}>NSE broker factsheet</button>
         <br />
         <br />
         "Prevent unauthorised transactions in your account. Update your mobile
@@ -147,40 +147,40 @@ function Footer() {
         account. As a business we don't give stock tips, and have not authorized
         anyone to trade on behalf of others. If you find anyone claiming to be
         part of Zerodha and offering such services, please{" "}
-        <a href="javascript:void(0);">create a ticket here</a>. <br />
+        <button style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit'}}>create a ticket here</button>. <br />
       </p>
 
       <div className="mb-4 px-4">
-        <a href="javascript:void(0);" className="footer-downlink">
+        <button className="footer-downlink" style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit'}}>
           NSE
-        </a>
-        <a href="javascript:void(0);" className="footer-downlink">
+        </button>
+        <button className="footer-downlink" style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit'}}>
           BSE
-        </a>
-        <a href="javascript:void(0);" className="footer-downlink">
+        </button>
+        <button className="footer-downlink" style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit'}}>
           MCX
-        </a>
-        <a href="javascript:void(0);" className="footer-downlink">
+        </button>
+        <button className="footer-downlink" style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit'}}>
           Terms & conditions{" "}
-        </a>
-        <a href="javascript:void(0);" className="footer-downlink">
+        </button>
+        <button className="footer-downlink" style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit'}}>
           Policies & procedures{" "}
-        </a>
-        <a href="javascript:void(0);" className="footer-downlink">
+        </button>
+        <button className="footer-downlink" style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit'}}>
           Privacy policy{" "}
-        </a>
-        <a href="javascript:void(0);" className="footer-downlink">
+        </button>
+        <button className="footer-downlink" style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit'}}>
           Disclosure{" "}
-        </a>
-        <a href="javascript:void(0);" className="footer-downlink">
+        </button>
+        <button className="footer-downlink" style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit'}}>
           For investor's{" "}
-        </a>
-        <a href="javascript:void(0);" className="footer-downlink">
+        </button>
+        <button className="footer-downlink" style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit'}}>
           attention{" "}
-        </a>
-        <a href="javascript:void(0);" className="footer-downlink">
+        </button>
+        <button className="footer-downlink" style={{background:'none', border:'none', cursor:'pointer', padding:0, color:'inherit'}}>
           investor charter{" "}
-        </a>
+        </button>
       </div>
     </div>
   );
