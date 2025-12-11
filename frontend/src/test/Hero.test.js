@@ -11,7 +11,7 @@ describe('Hero Component', () => {
         //render the component first
         render(<Hero />);
         //search for one element
-        const heroImage = screen.getByAltText("Hero Image"); //try to check the image whose alt text is "Hero Image"
+        const heroImage = screen.getByAltText("Invest in everything illustration"); //try to check the image whose alt text is "Hero Image"
         //expect that element should be present in the page
         expect(heroImage).toBeInTheDocument();
         //Element should have the particular attribute
