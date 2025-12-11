@@ -12,87 +12,87 @@ function Footer() {
             <span>All rights reserved.</span>
           </p>
           <div className="social-media-icons mb-4">
-            <a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <a href="javascript:void(0);"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href="javascript:void(0);"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a href="javascript:void(0);"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="javascript:void(0);"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
           </div>
           <div className="social-media-icons-bottom mb-4">
-            <a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-telegram" aria-hidden="true"></i></a>
+            <a href="javascript:void(0);"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            <a href="javascript:void(0);"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            <a href="javascript:void(0);"><i class="fa fa-telegram" aria-hidden="true"></i></a>
           </div>
         </div>
         <div className="col-lg-2 col-sm-12 footer_link mb-5">
           <h5>Account</h5>
-          <a href="">Open demat account</a>
+          <a href="javascript:void(0);">Open demat account</a>
           <br />
-          <a href="">Minor demat account</a>
+          <a href="javascript:void(0);">Minor demat account</a>
           <br />
-          <a href="">NRI demat account</a>
+          <a href="javascript:void(0);">NRI demat account</a>
           <br />
-          <a href="">Commodity</a>
+          <a href="javascript:void(0);">Commodity</a>
           <br />
-          <a href="">Dematerialisation</a>
+          <a href="javascript:void(0);">Dematerialisation</a>
           <br />
-          <a href="">Fund transfer</a>
+          <a href="javascript:void(0);">Fund transfer</a>
           <br />
-          <a href="">MTF</a>
+          <a href="javascript:void(0);">MTF</a>
           <br />
-          <a href="">Referral program</a>
+          <a href="javascript:void(0);">Referral program</a>
           <br />
         </div>
         <div className="col-lg-2 col-sm-12 footer_link mb-5">
           <h5>Support</h5>
-          <a href="">Contact us</a>
+          <a href="javascript:void(0);">Contact us</a>
           <br />
-          <a href="">Support portal</a>
+          <a href="javascript:void(0);">Support portal</a>
           <br />
-          <a href="">How to file a complaint?</a>
+          <a href="javascript:void(0);">How to file a complaint?</a>
           <br />
-          <a href="">Status of your complaints</a>
+          <a href="javascript:void(0);">Status of your complaints</a>
           <br />
-          <a href="">Bulletin</a>
+          <a href="javascript:void(0);">Bulletin</a>
           <br />
-          <a href="">Circular</a>
+          <a href="javascript:void(0);">Circular</a>
           <br />
-          <a href="">Z-Connect blog</a>
+          <a href="javascript:void(0);">Z-Connect blog</a>
           <br />
-          <a href="">Downloads</a>
+          <a href="javascript:void(0);">Downloads</a>
           <br />
         </div>
         <div className="footer_link col-lg-2 col-sm-12 mb-5">
           <h5>Company</h5>
-          <a href="">About</a>
+          <a href="javascript:void(0);">About</a>
           <br />
-          <a href="">Philosophy</a>
+          <a href="javascript:void(0);">Philosophy</a>
           <br />
-          <a href="">Press & media</a>
+          <a href="javascript:void(0);">Press & media</a>
           <br />
-          <a href="">Careers</a>
+          <a href="javascript:void(0);">Careers</a>
           <br />
-          <a href="">Zerodha Cares (CSR)</a>
+          <a href="javascript:void(0);">Zerodha Cares (CSR)</a>
           <br />
-          <a href="">Zerodha.tech</a>
+          <a href="javascript:void(0);">Zerodha.tech</a>
           <br />
-          <a href="">Open source</a>
+          <a href="javascript:void(0);">Open source</a>
           <br />
         </div>
         <div className="col-lg-3 col-sm-12 footer_link mb-5">
           <h5>Quick links</h5>
-          <a href="">Upcoming IPOs</a>
+          <a href="javascript:void(0);">Upcoming IPOs</a>
           <br />
-          <a href="">Brokerage charges</a>
+          <a href="javascript:void(0);">Brokerage charges</a>
           <br />
-          <a href="">Market holidays</a>
+          <a href="javascript:void(0);">Market holidays</a>
           <br />
-          <a href="">Economic calendar</a>
+          <a href="javascript:void(0);">Economic calendar</a>
           <br />
-          <a href="">Calculators</a>
+          <a href="javascript:void(0);">Calculators</a>
           <br />
-          <a href="">Markets</a>
+          <a href="javascript:void(0);">Markets</a>
           <br />
-          <a href="">Sectors</a>
+          <a href="javascript:void(0);">Sectors</a>
           <br />
         </div>
       </div>
@@ -105,17 +105,17 @@ function Footer() {
         Cross, Dollars Colony, Opp. Clarence Public School, J.P Nagar 4th Phase,
         Bengaluru - 560078, Karnataka, India. For any complaints pertaining to
         securities broking please write to{" "}
-        <a href="">complaints@zerodha.com</a>, for DP related to{" "}
-        <a href="">dp@zerodha.com</a>. Please ensure you carefully read the
+        <a href="javascript:void(0);">complaints@zerodha.com</a>, for DP related to{" "}
+        <a href="javascript:void(0);">dp@zerodha.com</a>. Please ensure you carefully read the
         Risk Disclosure Document as prescribed by SEBI | ICF <br />
         <br />
-        Procedure to file a complaint on <a href="">SEBI SCORES</a>: Register
+        Procedure to file a complaint on <a href="javascript:void(0);">SEBI SCORES</a>: Register
         on SCORES portal. Mandatory details for filing complaints on SCORES:
         Name, PAN, Address, Mobile Number, E-mail ID. Benefits: Effective
         Communication, Speedy redressal of the grievances <br />
         <br />
-        <a href="">Smart Online Dispute Resolution</a> |{" "}
-        <a href="">Grievances Redressal Mechanism </a>
+        <a href="javascript:void(0);">Smart Online Dispute Resolution</a> |{" "}
+        <a href="javascript:void(0);">Grievances Redressal Mechanism </a>
         <br />
         <br />
         Investments in securities market are subject to market risks; read all
@@ -130,7 +130,7 @@ function Footer() {
         issued by NSDL/CDSL every month. <br />
         <br />
         India's largest broker based on networth as per NSE.{" "}
-        <a href="">NSE broker factsheet</a>
+        <a href="javascript:void(0);">NSE broker factsheet</a>
         <br />
         <br />
         "Prevent unauthorised transactions in your account. Update your mobile
@@ -147,38 +147,38 @@ function Footer() {
         account. As a business we don't give stock tips, and have not authorized
         anyone to trade on behalf of others. If you find anyone claiming to be
         part of Zerodha and offering such services, please{" "}
-        <a href="">create a ticket here</a>. <br />
+        <a href="javascript:void(0);">create a ticket here</a>. <br />
       </p>
 
       <div className="mb-4 px-4">
-        <a href="" className="footer-downlink">
+        <a href="javascript:void(0);" className="footer-downlink">
           NSE
         </a>
-        <a href="" className="footer-downlink">
+        <a href="javascript:void(0);" className="footer-downlink">
           BSE
         </a>
-        <a href="" className="footer-downlink">
+        <a href="javascript:void(0);" className="footer-downlink">
           MCX
         </a>
-        <a href="" className="footer-downlink">
+        <a href="javascript:void(0);" className="footer-downlink">
           Terms & conditions{" "}
         </a>
-        <a href="" className="footer-downlink">
+        <a href="javascript:void(0);" className="footer-downlink">
           Policies & procedures{" "}
         </a>
-        <a href="" className="footer-downlink">
+        <a href="javascript:void(0);" className="footer-downlink">
           Privacy policy{" "}
         </a>
-        <a href="" className="footer-downlink">
+        <a href="javascript:void(0);" className="footer-downlink">
           Disclosure{" "}
         </a>
-        <a href="" className="footer-downlink">
+        <a href="javascript:void(0);" className="footer-downlink">
           For investor's{" "}
         </a>
-        <a href="" className="footer-downlink">
+        <a href="javascript:void(0);" className="footer-downlink">
           attention{" "}
         </a>
-        <a href="" className="footer-downlink">
+        <a href="javascript:void(0);" className="footer-downlink">
           investor charter{" "}
         </a>
       </div>
