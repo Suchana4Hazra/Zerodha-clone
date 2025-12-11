@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+    padding: 15px 0;
+    background-color: white !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.navbar-brand img {
+    width: 130px !important;
+    height: auto;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    gap: 20px;
+}
+
+.nav-link {
+    color: #424242 !important;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px 0 !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #387ed1 !important;
+}
+
+.navbar-toggler {
+    border: none;
+    padding: 0;
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        padding: 20px 0;
+    }
+    
+    .nav-link {
+        padding: 10px 0 !important;
+    }
+}
+.navbar-toggler {
+    border: none !important;
+    padding: 0;
+    box-shadow: none !important;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none !important;
+}
+
+.footer_link a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #6c757d;  /* This is Bootstrap's text-muted color */
+}
+.footer_link a:hover {
+    color: #387ed1;  /* Change color on hover */
+    text-decoration: none;
+}
+
+.footer_link h5{
+    font-size: 1rem;
+}
+
+.footer--top-border {
+    border-top: 1px solid #e9ecef;
+    padding-top: 1rem;
+}
+
+.footer-para{
+
+    font-size: 0.6rem;
+    line-height: 180%;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.footer-downlink{
+    font-size: 0.75rem;
+    margin-right: 3%;
+    color: #6c757d;
+}
+
+.footer-downlink:hover{
+    color: #387ed1;  /* Change color on hover */
+    text-decoration: none;
+}
+
+.para1 {
+  margin-top: 2%;
+  font-size: 0.7rem;
+  color: #6c757d;
+  line-height: 1.50;
+}
+.para1 span {
+  display: block;        /* each line becomes its own block */
+  margin: 0;             /* remove default spacing */
+}
+
+.social-media-icons{
+    border-bottom: 1px solid rgb(231, 222, 222);
+}
+
+.social-media-icons a{
+
+    text-decoration: none;
+    color: rgb(27, 26, 26);
+    margin-right: 4%;
+}
+
+.social-media-icons a:hover{
+
+    color: #387ed1;
+}
+
+.social-media-icons-bottom a{
+
+    text-decoration: none;
+    color: rgb(27, 26, 26);
+    margin-right: 4%;
+}
+
+.social-media-icons-bottom a:hover{
+
+    color: #387ed1;
+}
+
+/* ...existing code ... */
+
+.notfound {
+  min-height: calc(100vh - 220px); /* leaves space for your navbar + footer */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 16px;
+  background: #f8fafc;
+}
+
+.notfound-card {
+  max-width: 820px;
+  width: 100%;
+  padding: 36px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(16, 24, 40, 0.06);
+}
+
+.notfound .display-1 {
+  font-size: 96px;
+  line-height: 1;
+  margin: 0;
+  font-weight: 700;
+  color: #111827;
+}
+
+.notfound h2 {
+  font-size: 1.5rem;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: #0f172a;
+}
+
+.notfound .lead {
+  font-size: 1rem;
+  color: #6b7280;
+  margin-bottom: 18px;
+}
+
+@media (max-width: 576px) {
+  .notfound .display-1 { font-size: 64px; }
+  .notfound-card { padding: 20px; }
+}
+
+/* optional: slightly stronger primary button shadow */
+.notfound .btn-primary {
+  box-shadow: 0 4px 12px rgba(59,130,246,0.12);
+}
+
+.about h4{
+
+    font-size: 1.3rem;
+}
+
+.team a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.about a{
+    text-decoration: none;
+}
+
+.Product-Hero-link a{
+   margin-right: 5%;
+   text-decoration: none;
+}
+
+/* ---support page style ---*/
+.support-hero {
+  background: #f5f6f8;
+  padding: 36px 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.support-title {
+  margin: 0 0 4px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #212529;
+}
+
+.support-search .input-group {
+  max-width: 980px;
+  margin-top: 18px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+}
+
+.support-search .input-group .input-group-text {
+  border-right: 0;
+}
+
+.support-search .form-control {
+  border-left: 0;
+  border-right: 0;
+}
+
