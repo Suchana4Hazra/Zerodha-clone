@@ -20,7 +20,7 @@ function Menu() {
 
   return (
      <div className="menu-container">
-      <img src="/media/images/logo.png" style={{ width: "50px" }} />
+      <img src="/media/images/logo.png" alt="menu-logo" style={{ width: "50px" }} />
       <div className="menus">
         <ul>
           <li>
