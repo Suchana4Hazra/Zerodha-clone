@@ -1,0 +1,20 @@
+version: "latest"
+
+services:
+   mongo-db1:
+      image: mongo
+      ports: 
+        - 27017:27017
+      environment:
+        MONGO_INITDB_ROOT_USERNAME: mongoadmin
+        MONGO_INITDB_ROOT_PASSWORD: secret
+   mongo-express1:
+      image: mongo-express
+      ports:
+        - 8081:8081
+      environment:
+        ME_CONFIG_MONGODB_URL: mongodb://mongoadmin:secret@mongo-db1:27017/
+        ME_CONFIG_BASICAUTH_ENABLED: true
+        ME_CONFIG_BASICAUTH_USERNAME: mongoadmin
+        ME_CONFIG_BASICAUTH_PASSWORD: secret
+

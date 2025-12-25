@@ -8,7 +8,15 @@ const Orders = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
+    let mounted = true;
+    const intervalFetch = () => {
+      if (!mounted) return;
+      fetchOrders();
+    };
+
     fetchOrders();
+    const id = setInterval(intervalFetch, 5000);
+    return () => { mounted = false; clearInterval(id); };
   }, []);
 
   const fetchOrders = async () => {

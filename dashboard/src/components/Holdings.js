@@ -10,10 +10,17 @@ const Holdings = () => {
   const [allHoldings, setAllHoldings] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:3002/allHoldings").then((res) => {
-      console.log(res.data);
-      setAllHoldings(res.data);
-    })
+    let mounted = true;
+    const fetchHoldings = () => {
+      axios.get("http://localhost:3002/allHoldings").then((res) => {
+        if (!mounted) return;
+        setAllHoldings(res.data);
+      }).catch((err) => console.error('fetchHoldings error', err));
+    }
+
+    fetchHoldings();
+    const id = setInterval(fetchHoldings, 5000);
+    return () => { mounted = false; clearInterval(id); }
   }, []);
 
   const labels = allHoldings.map((subarray) => subarray["name"]);
@@ -53,17 +60,19 @@ const Holdings = () => {
 
       <div className="order-table">
         <table>
-          <tr>
-            <th>Instrument</th>
-            <th>Qty.</th>
-            <th>Avg. cost</th>
-            <th>LTP</th>
-            <th>Cur. val</th>
-            <th>P&L</th>
-            <th>Net chg.</th>
-            <th>Day chg.</th>
-          </tr>
-
+          <thead>
+            <tr>
+              <th>Instrument</th>
+              <th>Qty.</th>
+              <th>Avg. cost</th>
+              <th>LTP</th>
+              <th>Cur. val</th>
+              <th>P&L</th>
+              <th>Net chg.</th>
+              <th>Day chg.</th>
+            </tr>
+          </thead>
+          <tbody>
           {allHoldings.map((stock, index) => {
             const curValue = stock.price * stock.qty;
             const isProfit = curValue - stock.avg * stock.qty >= 0.0;
@@ -85,6 +94,7 @@ const Holdings = () => {
               </tr>
             );
           })}
+          </tbody>
         </table>
       </div>
 
